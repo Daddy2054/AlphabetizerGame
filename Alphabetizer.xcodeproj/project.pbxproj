@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FA472AB2CCAF04300CA5A0B /* Alphabetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA472AA2CCAF04300CA5A0B /* Alphabetizer.swift */; };
+		0FA472AD2CCD5EFB00CA5A0B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA472AC2CCD5EFB00CA5A0B /* Message.swift */; };
 		2812270C2C12510700E710A5 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281227092C12510700E710A5 /* Tile.swift */; };
 		2812270D2C12510700E710A5 /* Vocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812270A2C12510700E710A5 /* Vocabulary.swift */; };
 		281227152C12514700E710A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812270E2C12514600E710A5 /* ContentView.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FA472AA2CCAF04300CA5A0B /* Alphabetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alphabetizer.swift; sourceTree = "<group>"; };
+		0FA472AC2CCD5EFB00CA5A0B /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Message.swift; path = Alphabetizer/Views/Message.swift; sourceTree = SOURCE_ROOT; };
 		281227092C12510700E710A5 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 		2812270A2C12510700E710A5 /* Vocabulary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vocabulary.swift; sourceTree = "<group>"; };
 		2812270E2C12514600E710A5 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,8 +53,10 @@
 		2812270B2C12510700E710A5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0FA472AC2CCD5EFB00CA5A0B /* Message.swift */,
 				281227092C12510700E710A5 /* Tile.swift */,
 				2812270A2C12510700E710A5 /* Vocabulary.swift */,
+				0FA472AA2CCAF04300CA5A0B /* Alphabetizer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -180,6 +186,8 @@
 				281227192C12514700E710A5 /* TileView.swift in Sources */,
 				281227152C12514700E710A5 /* ContentView.swift in Sources */,
 				2812270D2C12510700E710A5 /* Vocabulary.swift in Sources */,
+				0FA472AD2CCD5EFB00CA5A0B /* Message.swift in Sources */,
+				0FA472AB2CCAF04300CA5A0B /* Alphabetizer.swift in Sources */,
 				281227182C12514700E710A5 /* SubmitButton.swift in Sources */,
 				281227162C12514700E710A5 /* MessageView.swift in Sources */,
 				281227172C12514700E710A5 /* ScoreView.swift in Sources */,
